@@ -9,7 +9,7 @@ export class RedisHandler {
             username: 'default',
             password: 'aXgFggUxztLz7AI8H762fQ6pdzYN968T',
             socket: {
-                host: 'redis-16956.c73.us-east-1-2.ec2.redns.redis-cloud.com',
+                host: process.env.REDIS,
                 port: 16956
             }
         });
